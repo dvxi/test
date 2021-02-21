@@ -8,7 +8,7 @@ body {
 	background-size: cover;
 }
 .animate__animated.animate__bounceInDown {
-  --animate-duration: 2s;
+  --animate-duration: 1s;
 }
 .img {
 	height: 100px;
