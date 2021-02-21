@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+	font-family: 'Montserrat';
+	color: #fff;
+	text-decoration: none;
+	background-image: url(bg4.jpg);
+	background-size: cover;
+}
+.animate__animated.animate__bounceInDown {
+  --animate-duration: 2s;
+}
+.img {
+	height: 100px;
+	width: 100px;
+	border-radius: 25px;
+	margin-bottom: 20px;
+}
+.container {
+	background-color: rgba(255, 255, 255, .15);
+ 	backdrop-filter: blur(40px);
+	box-shadow: 0 0 1.2em #1a1a1a;
+	width: 30vw;
+	height: 40vh;
+	border-radius: 20px;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -15vw;
+	margin-top: -20vh;
+	text-align: center;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+}
+a {
+	transition: all .2s ease-in-out;
+	font-size: 35px;
+	font-weight: 900;
+	color: #fff;
+}
+a:link, a:visited {
+	color: #fff;
+	text-decoration: underline;
+  text-decoration-thickness: 20px;
+  text-decoration-color: rgba(142, 176, 230, 0);
+  text-decoration-skip-ink: none;
+  text-underline-offset: -20px;
+}
+a:hover {
+	text-decoration-color: rgb(142, 176, 230);
+}
